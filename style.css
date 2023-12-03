@@ -1,0 +1,167 @@
+/* font-family: 'Hanken Grotesk', sans-serif; */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* -------------------------------- STILI BASE -------------------------------- */
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+span {
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    margin: 10% auto;
+    width: 820px;
+    background-color: #fff;
+    border-radius: 40px;
+    /* box-shadow: 44px 44px 88px #d6d6d6; */
+    box-shadow: 44px 44px 88px hsl(222, 81%, 94%);
+}
+
+/* -------------------------------- LEFT SECTION -------------------------------- */
+
+.left {
+    width: 50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 35px;
+    border-radius: 40px;
+}
+
+.left p {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.left h2 {
+    color: rgba(255, 255, 255, 0.7)
+}
+
+/* -------------------------------- CIRCLE -------------------------------- */
+
+.circle {
+    width: 237.59px;
+    height: 237.59px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle p:first-of-type {
+    font-size: 100px;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* -------------------------------- RIGHT SECTION -------------------------------- */
+
+.right {
+    padding: 50px 35px;
+    width: 100%;
+
+}
+
+.right h2 {
+    padding-bottom: 10px;
+}
+
+.right li {
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+}
+
+.score p {
+    position: absolute;
+    left: 65%;
+}
+
+.right img {
+    margin-right: 15px;
+}
+
+.right p {
+    font-size: 20px;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 8%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 8%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 8%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 8%);
+}
+
+/* -------------------------------- BUTTON -------------------------------- */
+
+button {
+    background-color: #303a58;
+    padding: 15px;
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-radius: 45px;
+    color: #fff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
