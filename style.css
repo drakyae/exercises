@@ -165,3 +165,8 @@ button {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
 }
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
